@@ -1,4 +1,7 @@
-## Mosquito Speak
+## Mosquito Message
+Heavily based on Carsten Agerskov's Mosquito Speak Skill (https://github.com/CarstenAgerskov)
+I will update the skill with new functionality tailored to my personal needs at home
+
 Allow Mycroft to notify you on events, by speaking text received on a mqtt bus.
 Send utterances to activate other mycroft skills, over mqtt.
 
