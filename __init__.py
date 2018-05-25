@@ -27,7 +27,8 @@ import re
 from mycroft.messagebus.message import Message
 from mycroft.util.log import LOG
 
-__author__ = 'cagerskov'
+#heavily based on the mosquito speak skill from cagerskov
+__author__ = 'RdL'
 
 try:
     client
@@ -40,9 +41,9 @@ except NameError:
     LOG.info('Client created')
 
 
-class MosquitoSpeak(MycroftSkill):
+class MosquitoMessage(MycroftSkill):
     def __init__(self):
-        super(MosquitoSpeak, self).__init__(name='MosquitoSpeak')
+        super(MosquitoMessage, self).__init__(name='MosquitoMessage')
         self.host = None
         self.port = None
         self.topic = None
@@ -115,4 +116,4 @@ class MosquitoSpeak(MycroftSkill):
 
 
 def create_skill():
-    return MosquitoSpeak()
+    return MosquitoMessage()

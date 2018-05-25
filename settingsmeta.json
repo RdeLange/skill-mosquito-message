@@ -1,6 +1,6 @@
 {
-  "identifier": "MosquitoSpeak",
-  "name": "Mosquito Speak",
+  "identifier": "MosquitoMessage",
+  "name": "Mosquito Message",
   "skillMetadata": {
       "sections": [
           {
